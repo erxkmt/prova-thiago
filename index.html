@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja de Roupas</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="css/estilos_multimidia.css" >
+  <link rel="stylesheet" href="midia/Luan Oliveira’s 2022 'Lost & Found' Part (1).mp4" />
+</head>
+<body>
+
+  
+  <section id="sobre">
+    <h1>Sobre Nossa Empresa</h1>
+    <div class="content">
+      <div class="text">
+        <p>Bem-vindo à nossa loja de roupas, onde estilo encontra conforto e moda se torna uma expressão de quem você é. Nós, da RKM STORE, estamos aqui para tornar sua experiência de compra online tão empolgante e pessoal quanto entrar em nossa loja física.</p>
+      </div>
+      <div class="media">
+        <img src="img/img 1.jpg" alt="Loja física">
+        <img src="img/img 2.jpg" alt="Mais fotos da loja">
+        <img src="img/img 3.jpg" alt="...">
+        <video width="720" height="550" controls>
+            <source src="midia/Luan Oliveira’s 2022 'Lost & Found' Part (1).mp4"video/mp4">
+            <source src="midia/Luan Oliveira’s 2022 'Lost & Found' Part (1).mp4"video/webm">
+            Seu navegador não suporta a tag de vídeo.
+          </video>
+      </div>
+    </div>
+  </section>
+  <section id="cadastro">
+    <h1>Cadastre-se</h1>
+    <form action="cadastro.php" method="POST">
+      <input type="text" name="nome" placeholder="Nome" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="telefone" placeholder="Telefone" required>
+      <input type="text" name="cpf" placeholder="CPF" required>
+      <input type="date" name="data_nascimento" required>
+      <input type="text" name="rg" placeholder="RG" required>
+      <input type="text" name="endereço"placeholder="Endereço" required></textarea>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </section>
+
+  <!-- Apresentação dos Produtos -->
+  <section id="produtos">
+    <h1>Nossos Produtos</h1>
+    <div class="grid-container">
+      <!-- Aqui você pode adicionar os produtos -->
+      <div class="produto">
+        <img src="img/tenis ous.jpeg" alt="produto 1" >
+        <h2>Tenis</h2>
+        <p>Tenis Ous Arquitetonic Preto/Vermelho</p>
+        <p>R$419,99</p>
+      </div>
+    </div>
+    <div class="produto">
+        <img src="img/tenis lakai.jpg" alt="Produto 2">
+        <h2>Tenis</h2>
+        <p>Tenis Lakai Preto/Branco</p>
+        <p>R$350,00</p>
+    </div>
+    <div class="produto">
+        <img src="img/quik 4.jpg "alt="Produto 3">
+        <h2>Bermuda</h2>
+        <p>Bermuda Elastano Quiksilver Azul/Branca/Roxa/Preta</p>
+        <p>R$200,00</p>
+    </div> 
+    <div class="produto">
+        <img src="img/quik 3.jpg"alt="Produto 4">
+        <h2>Bermuda</h2>
+        <p>Bermuda Elastano Quiksilver Azul</p>
+        <p>R$200,00</p>   
+    </div>
+    <div class="produto">
+        <img src="img/camiseta high.jpg" alt="Produto 5">
+        <h2>Camiseta</h2>
+        <p>Camiseta high tee Preta</p>
+        <p>R$229,99</p>
+    </div>
+    <div class="produto">
+        <img src="img/camiseta piet.jpg" alt="Produto 6">
+        <h2>Camiseta</h2>
+        <p>Camiseta Piet Roxa com estampa</p>
+        <p>R$229,99</p>
+    </div>
+    <div class="produto">
+        <img src="img/camiseta quik.jpg" alt="Produto 7">
+        <h2>Camiseta</h2>
+        <p>Camiseta Quiksilver Azul Marinho</p>
+        <p>R$300,00</p>
+    </div>
+    <div class="produto">
+        <img src="img/calça y2k.jpg" alt="Produto 8">
+        <h2>Calça</h2>
+        <p>Calça Baggy Y2k </p>
+        <p>R$399,99</p>
+    </div>
+    <div class="produto">
+        <img src="img/calça y2k (2).jpg" alt="Produto 9">
+        <h2>Calça</h2>
+        <p>Calça Baggy Jeans</p>
+        <p>R$399,99</p>
+    </div>
+    <div class="produto">
+        <img src="img/5 panel ous.jpg" alt="Produto 10">
+        <h2>Boné 5-panel</h2>
+        <p>5-panel Ous Vinho</p>
+        <p>R$239,99</p>
+    </div>
+
+  </section>
+
+
+</body>
+</html>
